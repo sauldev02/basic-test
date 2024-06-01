@@ -1,0 +1,14 @@
+<nav>
+    <h2>NavBar</h2>
+    <div class="menu">
+        <ul>
+            <!-- [routerLink]="['/articles']" -->
+            <li routerLink="/articles" class="cursor-pt">Lista de artículos >></li>
+            <li [routerLink]="['/articles', 'detalle']" class="cursor-pt">Detalle del artículo >></li>
+            <li [routerLink]="['/dashboard']" class="cursor-pt">Dashboard de administración >></li>
+            <li [routerLink]="['/dashboard', 'calendar']" class="cursor-pt">Calendario de administración >></li>
+            <li [routerLink]="['/register']" class="cursor-pt">Registro >></li>
+            <li [routerLink]="['/login']" class="cursor-pt">Login >></li>
+        </ul>
+    </div>
+</nav>
