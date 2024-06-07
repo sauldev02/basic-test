@@ -29,15 +29,6 @@ export const routes: Routes = [
         title: 'Defer option',
         loadComponent: () =>
           import(
-            './features/dashboard/pages/control-flow/control-flow.component'
-          ),
-      },
-
-      {
-        path: 'defer-option',
-        title: 'Defer option',
-        loadComponent: () =>
-          import(
             './features/dashboard/pages/defer-option/defer-option.component'
           ),
       },
@@ -52,21 +43,14 @@ export const routes: Routes = [
       },
 
       {
-        path: 'user',
-        title: 'User',
-        loadComponent: () =>
-          import('./features/dashboard/pages/user/user.component'),
-      },
-
-      {
-        path: 'user/:id',
+        path: 'user-list',
         title: 'User View',
         loadComponent: () =>
           import('./features/dashboard/pages/user/user.component'),
       },
 
       {
-        path: 'user-list',
+        path: 'user/:id',
         title: 'User View',
         loadComponent: () =>
           import('./features/dashboard/pages/user/user.component'),
