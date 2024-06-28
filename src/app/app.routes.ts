@@ -55,13 +55,20 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./features/dashboard/pages/user/user.component'),
       },
-
       {
-        path: 'view-transition',
-        title: 'View transition',
+        path: 'view-transition-1',
+        title: 'View transition 1',
         loadComponent: () =>
           import(
-            './features/dashboard/pages/view-transition/view-transition.component'
+            './features/dashboard/pages/view-transition1/view-transition1.component'
+          ),
+      },
+      {
+        path: 'view-transition-2',
+        title: 'View transition 2',
+        loadComponent: () =>
+          import(
+            './features/dashboard/pages/view-transition2/view-transition2.component'
           ),
       },
       {
