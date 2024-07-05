@@ -42,11 +42,17 @@ export const routes: Routes = [
           ),
       },
 
+      // {
+      //   path: 'user-list',
+      //   title: 'User View',
+      //   loadComponent: () =>
+      //     import('./features/dashboard/pages/user/user.component'),
+      // },
       {
         path: 'user-list',
         title: 'User View',
         loadComponent: () =>
-          import('./features/dashboard/pages/user/user.component'),
+          import('./features/dashboard/pages/users/users.component'),
       },
 
       {
