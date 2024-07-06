@@ -6,7 +6,7 @@
 		<img [srcset]="user.avatar" [alt]="user.first_name" class="rounded w-14">
 
 		<a [routerLink]="['/dashboard/user', user.id]" class="mx-5 hover:underline">
-			{{user.first_name}}
+			{{user.first_name}} {{user.last_name}}
 		</a>
 	
 
