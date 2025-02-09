@@ -16,7 +16,8 @@ export class HeavyLoadersSlowComponent {
   constructor(){
     const start = Date.now();
     while(Date.now() - start<3000){}
-    console.log('Cargado!')
   }
 
 }
+
+//Comentario de prueba de cambio
