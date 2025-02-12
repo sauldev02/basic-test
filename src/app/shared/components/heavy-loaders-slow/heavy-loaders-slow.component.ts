@@ -20,4 +20,4 @@ export class HeavyLoadersSlowComponent {
 
 }
 
-//Comentario de prueba de cambio
+//
