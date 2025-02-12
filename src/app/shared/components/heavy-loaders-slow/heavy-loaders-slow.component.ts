@@ -20,4 +20,4 @@ export class HeavyLoadersSlowComponent {
 
 }
 
-//
+//He agregado un comentario para que se vea el cambio en el repositorio
