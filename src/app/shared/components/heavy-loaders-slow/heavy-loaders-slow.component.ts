@@ -19,3 +19,5 @@ export class HeavyLoadersSlowComponent {
   }
 
 }
+
+//Otro comentario pero con separacion de lineas en el commit
